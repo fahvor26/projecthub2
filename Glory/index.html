@@ -4,9 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fa/css/all.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="navbar">
+        <div class="navcontent">
+            <div class="logo">Logo</div>
+            <div class="menu">
+                <div class="menuChild">Home</div>
+                <div class="menuChild">About Us</div>
+                <div class="dropdown">
+                    <div class="menuChild" id="dropdownBtn" style="width:87px">Our Service  <i class="fa fa-angle-down" style="position: absolute; right:5px;top: 7px;"></i> </div>
+                    <div class="dropdownContent" id="dropdownContent">
+                        <div class="">Home delivery</div>
+                        <div class="">Pick Up</div>
+                        <div class="">Logistices services</div>
+                    </div>
+                </div>
+                <div class="menuChild">contact Us</div>
+                <div class="login">Login</div>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="bannerContent" style="z-index:0;">
+        
+        </div>
+        <div class=" bannerContainer" style="z-index: 22;background: red;">
+            <div class="navcontent">
+                <div class="">
+                    <div class="">
+
+                    </div>
+                    <div class="text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi fugit officia nihil libero perspiciatis blanditiis officiis saepe labore fuga maxime, beatae earum qui? Veritatis quas doloribus natus impedit minus! Maxime.
+                    </div>
+                    <div class=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="first">
+        <div class="sceond">
+            <div class="third">
+                <div class="fourth">
+                    <div class="fifth">
+                        <div class="sixth"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <script>
+        let dropdown = document.getElementById('dropdownBtn')
+        dropdown.addEventListener('click', function () {
+            if(document.getElementById('dropdownContent').style.display == 'none'){
+                document.getElementById('dropdownContent').style.display='block'
+            }else{
+                document.getElementById('dropdownContent').style.display='none'
+            }
+            
+        })
+    </script>
 </body>
 </html>
