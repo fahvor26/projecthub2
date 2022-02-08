@@ -16,78 +16,56 @@
 </head>
 <body>
     <?php include_once 'components/header.html'; ?>
-    <div class="my-10 mx-20">
-       <h1 class="font-serif text-2xl font-bold">CONNECT WITH US</h1>
-      <p class=>We Would Love to Respond to your queries and help you succeed. Feel Free to get in touch with Us.
-</div>
-    <div class="grid grid-cols-1 md:grid-cols-2">
-
-        <div class="flex">
-            <div class="pt-10 pb-5 pl-10 pr-40 ml-40 my-6 bg-[#fff]">
-                <h2 class="mb-10 h-10 font-times font-bold text-left text-2xl">Send Your Request</h2>
-                <form action="backend/test.php" method="post" name="frm_contact">
-                    <div class="flex mb-3">
-                        <label class="w-20">Name</label>
-                        <input type="text" placeholder="Sarah Obi" name="uname" id="uname" class="mb-3 h-10 border-black  border-b-2 outline-none">
-                    </div>
-
-                    <div class="h-1 bg-gray-200 w-0" id="progress"></div>
-                    <div class="flex mb-3">
-                        <label class="w-20">Phone</label>
-                        <input type="tel" placeholder="+234 7046383233" name="phone" id="phone" class="mb-3 h-10 border-black border-b-2 outline-none">
-                    </div>
-
-                    <div class="flex mb-3">
-                        <label class="w-20">Email</label>
-                        <input type="email" placeholder="emma23@gmail.com" name="email" id="email" class="mb-3 h-10 border-black border-b-2 outline-none">
-                    </div>
-
-                    <div class="flex mb-3">
-                        <label class="w-20">Subject</label>
-                        <input type="text" placeholder="Product demo"  name="subject" id="subject" class="mb-10 h-10 border-black border-b-2 outline-none"> 
-                    </div>
-                    <div class="mb-3">
-                            <label class="w-20 ">Message</label>
-                            <textarea rows="5" placeholder="Your Message" id="msg" class="mt-10 border-black border-2 rounded-xl pr-40" ></textarea>
-                    </div>
-                    <div class="text-left">
-                        <button type="submit" class="bg-blue-500 py-1 px-5 rounded-lg text-white">
-                            <span id="picons">
-                                <i class="fa fa-paper-plane"></i>
-                            </span> Send
-                        </button>
-                        <button type="reset" class="bg-red-500 py-1 px-5 rounded-lg text-white">
-                        <i class="fa fa-times-circle"></i> Clear
-                        </button>
-                    </div>
-                </form>
+    <div class="w-82 h-100  my-8 mx-10 bg-blue-900 rounded-xl flex">
+        <div class="mr-80 mt-8">
+            <h1 class="text-white font-bold text-2xl ml-20">Get a quote</h1>
+            <p class="ml-20 mb-10 text-gray-400 mt-5">Fill up the form and our Tearm with get back<br>to you within 24 hours</p>
+            <p class="ml-20 text-gray-400"><i class="fa fa-phone-alt"></i>+234 7084567892</p>
+            <p class="ml-20 mt-4 text-gray-400"><i class="fa fa-envelope"></i>creativeconcept@gmail.com</p>
+            <p class="ml-20 text-gray-400 mt-3"><i class="fa fa-map-marker-alt"></i> Procity Federal Polytechnic Nekede</p>
+        </div>
+        <div class="flex my-6 mx-8 mr-auto pr-42 pr-20 pb-50 py-70 h-100 float-right bg-white rounded-xl">
+            <form action="backend/test.php" method="post" name="frm_contact">
+            <div class="grid">
+                <label class="mt-8 ml-10">Your name</label>
+                <input type="text" placeholder="Sarah Obi" name="uname" id="uname" class="mb-3 h-10 border-black border-b-2 outline ml-10">
             </div>
 
-            <div class=" text-white pt-10 pb-5 pl-10 pr-40 my-6 bg-blue-300">
-                <h3 class="w-60 font-times font-bold text-white text-2xl">Reach Us</h3>
-                <table>
-                    <tr class="pr-20 pt-20">
-                        <td class="pr-20 pt-20">Email</td>
-                        <td class="pr-20 pt-20">creativeconcept@gmail.com</td>
-                    </tr>
-
-                    <tr class="pr-20 pt-10">
-                        <td class="pr-20 pt-10">Phone</td>
-                        <td class="pr-20 pt-10">+234 7083458457</td>
-                    </tr>
-
-                    <tr class="pr-20 pt-10">
-                        <td class="pr-20 pt-10">Address</td>
-                        <td class="pr-20 pt-10">Procity, Federal Polytechnic<br> Nekede, Owerri, Imo State, Nigeria.</td>
-                    </tr>
-
-                </table>    
+            <div class="grid">
+                <label class="ml-10">Phone</label>
+                <input type="tel" placeholder="+234 7046383233" name="phone" id="phone" class="mb-3 ml-10 h-10 border-black border-b-2 outline-none">
             </div>
+            <div class="grid">
+                <label class="ml-10">Mail</label>
+                <input type="email" placeholder="emma23@gmail.com" name="email" id="email" class="mb-3 h-10 border-black border-b-2 outline ml-10">
+            </div>
+            <div class="grid">
+                <label class="ml-10">Subject</label>
+                <input type="text" placeholder="Demo" name="subject" id="subject" class="mb-3 h-10 border-black border-b-2 outline ml-10">
+            </div>
+            <div class="grid">
+                <label class="ml-10">Message</label>
+                <textarea rows="5" placeholder="Your Message" id="msg" class="ml-10 mt-5 border-black border-2 rounded-xl pr-10" ></textarea>
+            </div>
+
+            <div class="my-8 text-right">
+                <button type="submit" class="bg-blue-500 py-1 px-5 rounded-lg text-white ">
+                    <span id="picons">
+                        <i class="fa fa-paper-plane"></i>
+                    </span> Send
+                </button>
+
+                <button type="reset" class="bg-red-500 py-1 px-5 rounded-lg text-white">
+                    <i class="fa fa-times-circle"></i> Clear
+                </button>
+            </div>
+
         </div>
-        <!-- Second Column -->
-        <div class="">
-            <span id="msg"></span>
-        </div>
+    </div>
+
+     <!-- Second Column -->
+     <div class="">
+        <span id="msg"></span>
     </div>
 
     <script src="js/script.js"></script>
