@@ -16,35 +16,38 @@
 </head>
 <body>
     <?php include_once 'components/header.html'; ?>
-    <div class="mt-10 py-8 bg-blue-500 w-50 h-40 text-3xl text-center font-serif">
-        About Us
-        
+    <div class="flex bg-white hover:bg-blue-900 pb-10 text-black hover:text-white">
+        <div class="">
+        <h1 class="text-black font-bold mt-15 pt-20 ml-10 text-4xl font-sans">ABOUT US</h1>
+        <p class="ml-10 mt-4 text-xl font-bold text-black
+       ">Lorem, ipsum dolor sit amet consectetur
+        <br>  Quod obcaecati harum atque pariatu
+        <br> sit, minima officiis volu<br> numquam, nemo
+        <br>culp autem. Illo, invent</p>
+        <button class="ml-10 mt-8 border-4 bg-blue-900 py-4 px-4 border-blue-900 hover:bg-white hover:border-white hover:text-black">Learn More</button>
+        </div>
+        <img src="images/about logo.png" alt="logo" style="width:400px;height:250px;"class="ml-20 pl-20 mt-10">
+    </div>
+    <!-- <div class="bg-gray-600 h-full" >
+
+    <div class="mt-7">
+    <h1 class="text-white font-bold mt-15 pt-20 ml-10 text-4xl font-sans">ABOUT US</h1>
     </div>
 
-    <div class="mt-8 mx-10 py-5 bg-blue-500 text-black w-50 h-60 text-2xl text-center font-serif"> 
-        A NEW CREATIVITY WEB PLATFORM <BR>
-        This page is all about been creative, learn how to grow ur confidence<br>
-        and create things around you, you will enjoy our services and then thank us later <br>
-        we care about your potential
+    <div class="flex">
+        <p class="ml-10 mt-4 text-xl font-bold text-blue-300
+       ">Lorem, ipsum dolor sit amet consectetur
+        <br>  Quod obcaecati harum atque pariatu
+        <br> sit, minima officiis volu<br> numquam, nemo
+        <br>culp autem. Illo, invent</p>
+      <img src="images/about logo.png" alt="logo" style="width:400px;height:250px;"class="ml-20 pl-20 ">
     </div>
 
-    <div class="text-center mt-5">
-        <button class="bg-blue-700 text-2xl text-center px-6 py-3 font-serif rounded-2xl ">
-            Learn More
-        </button>
-    </div>
-
-
-        <!-- <form class="inline-block" >
-            <div class="grid">
-                <label class="ml-10">Phone</label>
-                <input type="tel" placeholder="+234 7046383233" name="phone" id="phone" class="ml-10 ">
-            </div>
-            <div class="grid">
-                <label class="ml-10">Email</label>
-                <input type="email" placeholder="fahvor@gmail.com" name="email" id="email" class="ml-10 ">
-            </div>
-        </form> -->
+    
+        <button class="ml-10 text-white bg-blue-900 border-4 border-gray rounded-2-1">Learn More</button>
+    
+    </div> -->
+    
     <script src="js/script.js"></script>
 </body>
 </html>
