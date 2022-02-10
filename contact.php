@@ -33,15 +33,15 @@
 
             <div class="grid">
                 <label class="ml-10">Phone</label>
-                <input type="tel" placeholder="+234 7046383233" name="phone" id="phone" class="mb-3 ml-10 h-10 border-black border-b-2 outline-none">
+                <input type="tel" placeholder="+234 7046383233" required name="phone" id="phone" class="mb-3 ml-10 h-10 border-black border-b-2 outline-none">
             </div>
             <div class="grid">
                 <label class="ml-10">Mail</label>
-                <input type="email" placeholder="emma23@gmail.com" name="email" id="email" class="mb-3 h-10 border-black border-b-2 outline ml-10">
+                <input type="email" placeholder="emma23@gmail.com" required name="email" id="email" class="mb-3 h-10 border-black border-b-2 outline ml-10">
             </div>
             <div class="grid">
                 <label class="ml-10">Subject</label>
-                <input type="text" placeholder="Demo" name="subject" id="subject" class="mb-3 h-10 border-black border-b-2 outline ml-10">
+                <input type="text" placeholder="Demo" name="subject" required id="subject" class="mb-3 h-10 border-black border-b-2 outline ml-10">
             </div>
             <div class="grid">
                 <label class="ml-10">Message</label>
