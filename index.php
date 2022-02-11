@@ -19,6 +19,8 @@
     
     
 
+    <?php include_once 'components/livechat/chatui.html'; ?>
+    
     <script src="js/script.js"></script>
 </body>
 </html>

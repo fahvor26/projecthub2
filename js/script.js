@@ -71,10 +71,21 @@ $('form[name=frm_contact]').on('submit', function(e) {
 
     $.ajax({
         type:'post',
-        url: 'backend/process_contact.ph',
+        url: 'backend/process_contact.php',
         data: formdata,
+        dataType:'json',
         success: function(response){
-
+            if(response.status == 'success'){
+                alert(response.message);
+                $('#uname').val('');
+                $('#phone').val('');
+                $('#email').val('');
+                $('#subject').val('');
+                $('#msg').val('');
+            }else{
+                alert(response.message);
+                console.log(response.actual_error);
+            }
         },
         error: function(xhr, status, message){
             console.log(xhr.statusText);
@@ -87,4 +98,8 @@ $('form[name=frm_contact]').on('submit', function(e) {
         }
     })
 
+})
+
+$('#btn_livechat').on('click', function () {
+    $('#chatbox').toggleClass('open_chat');
 })
