@@ -28,25 +28,7 @@
         </div>
         <img src="images/about logo.png" alt="logo" style="width:400px;height:250px;"class="ml-20 pl-20 mt-10">
     </div>
-    <!-- <div class="bg-gray-600 h-full" >
-
-    <div class="mt-7">
-    <h1 class="text-white font-bold mt-15 pt-20 ml-10 text-4xl font-sans">ABOUT US</h1>
-    </div>
-
-    <div class="flex">
-        <p class="ml-10 mt-4 text-xl font-bold text-blue-300
-       ">Lorem, ipsum dolor sit amet consectetur
-        <br>  Quod obcaecati harum atque pariatu
-        <br> sit, minima officiis volu<br> numquam, nemo
-        <br>culp autem. Illo, invent</p>
-      <img src="images/about logo.png" alt="logo" style="width:400px;height:250px;"class="ml-20 pl-20 ">
-    </div>
-
-    
-        <button class="ml-10 text-white bg-blue-900 border-4 border-gray rounded-2-1">Learn More</button>
-    
-    </div> -->
+  
     
     <script src="js/script.js"></script>
 </body>
